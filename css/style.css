@@ -1,0 +1,324 @@
+body {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* header css */
+.main-header{
+    display: flex;
+    flex-direction: row;
+}
+#header{
+    background-color: #303030;
+
+}
+h1{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+}
+.first-header{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    margin-left: 130px;
+}
+.second-header{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+    justify-content: space-around;
+}
+/* first body css */
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+}
+.with-photo{
+    display: flex;
+    flex-direction: row;
+}
+.subscribe{
+    border-radius: 10px;
+    background: linear-gradient(180deg, #cb579d , #1f174e );
+    backdrop-filter: blur(43.6px);
+    color: #ffffff;
+    width: 419px;
+    margin-left: 126px;
+    height: 72px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    line-height: 21px;
+    size: 18px;
+}
+.text{
+    margin-left: 126px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #ffffff;
+    height: 112px;
+    width: 730px;
+    font-family: "Roboto";
+    font-style: normal;
+}
+.text-2{
+    margin-left: 126px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    height: 56px;
+    width: 489px;
+    color: #ffffff;
+}
+.svg-insert{
+    width: 612px;
+    height: 462px;
+    background: url(.png);
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.arrow-free{
+    vertical-align:bottom;
+}
+.free{
+   margin-left: 575px;
+   width: 97px;
+   height: 21px;
+   font-size: 18px;
+   font-weight: 400;
+}
+.about-course{
+    display: flex;
+    flex-direction: row;
+    margin-left: 238px;
+}
+.vl{
+    border-left: 1px solid #ff5abe;
+    height: 195px;
+    margin-bottom: 155px;
+}
+#about-course{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+#about-course1{
+    width: 683px;
+    font-weight:400;
+    height: 122px;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+/* second container */
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.for-whom{
+    width: 100%;
+    height:56px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #303030;
+}
+.text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    width: 580px;
+    height: 261px;
+    background: rgba(255,255,255,0.27);
+    box-shadow: inset 0px 5px 30px rgba(104,51,169,0.63);
+    backdrop-filter: blur(54px);
+    border-radius: 10px;
+}
+p{
+    font-family: "Roboto";
+    font-style: normal;
+    line-height: 21px;
+    color: #303030;
+    font-size: 18px;
+}
+#application{
+    width: 338px;
+    height: 72px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #cb579d , #1f174e );
+    backdrop-filter: blur(43.6px);
+    color: #ffffff;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    line-height: 21px;
+    size: 18px;
+    margin-bottom: 78px;
+}
+#application-text{
+    width:591px;
+    height:105px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+/* .eclipse8{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 22px;
+    top: 874px;
+    background: rgba(38,22,73,0.045);
+    box-shadow: inset 4.22667px -4.22667px 4.22667px rgba(32,18,62,0.29),inset -4.22667px 4.22667px 4.22667px rgba(255,255,255,0.29);
+    backdrop-filter: blur(41.6327px);
+} */
+.eclipse7{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left:-59px;
+    top:800px;
+    /* background: rgba(120,56,255,0.01); */
+    /* backdrop-filter: blur(63.4px); */
+}
+.eclipse{
+    position: absolute;
+    width: 452px;
+    height: 452px;
+    left: 1600px;
+    top: 1360px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+}
+.third-heading{
+    width:fit-content;
+    height: 56px;
+    margin-top: 95px;
+    font-family: "Roboto";
+    font-size: 48px;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: 400;
+    font-style: normal;
+}
+.vertical-texts{
+    display: flex;
+    /* flex-direction: row; */
+   
+}
+#study-p{
+    color:#ffffff
+}
+.vl2{
+    position: absolute;
+    border-left: 1px solid #ff5abe;
+    height: 234px;
+    margin-left:400px;
+    margin-top: 40px;
+}
+.module-box{
+    width:521px;
+    height: 82px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+.module-bottom{
+    position: absolute;
+    margin-left:300px;
+    margin-top: -110px;
+}
+.module-bottom2{
+    position: absolute;
+    margin-left:240px;
+    margin-top: -110px;
+}
+.module-bottom3{
+    position: relative;
+    margin-left:500px;
+    margin-top: 1px;
+    margin-bottom: 62.75px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+}
+.traffic-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:409px;
+    position: relative;
+    height: 623px;
+    background: rgba(255,255,255,0.27);
+    box-shadow: inset 0px 5px 30px rgba(104,51,169,0.63);
+    backdrop-filter: blur(54px);
+    border-radius: 10px;
+    z-index: 1000;
+}
+.traffic-heading{
+    width: 127px;
+    height: 28px;
+    font-family: "Roboto";
+    font-size:24px;
+    font-weight: 700;
+    color: #000000;
+    font-style: normal;
+    line-height: 28px;
+}
+#traffic-li{
+    width: fit-content;
+    margin-bottom: 1.3em;
+    height: 21px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #000000;
+}
+#eclipse-ten{
+    position: absolute;
+    width:164px;
+    height: 164;
+    margin-top: 290px;
+}
+#eclipse-seven{
+    position: absolute;
+    width:235px;
+    height: 235px;
+    margin-top: 390px;
+}
+#eclipse-7{
+    position: absolute  ;
+    z-index: 1;
+    width: 343px;
+    height: 343px;
+    margin-left: 1541px;
+    margin-top: 570px;
+}
+@media (max-width:375px){
+    
+}
